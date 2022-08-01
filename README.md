@@ -30,15 +30,16 @@ please, wait, this operation may take smth like 15-20 minutes
 ```
 
 ### search_in_db.py
-Скрипт для поиска информаци о фильме в локальной базе по названию. Запрашивает ввод пути до базы данных, название фильма в консоли.
-Выводит информацию о фильме, или 'File not found, sorry...' если фильм не найден.
+Скрипт для поиска фильмов в локальной базе по названию. Запрашивает ввод пути до базы данных, название фильма в консоли.
+Выводит похожие по названию фильмы, если они есть в базе.
 ```
 >python search_in_db.py
 Enter path to DataBase:
 ./MyFilmDB.json
 Enter film to search for:
 Dracula
-film_info...
+Dracula
+Dracula 2
 ```
 
 ### find_similar.py
